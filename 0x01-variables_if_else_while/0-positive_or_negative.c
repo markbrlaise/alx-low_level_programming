@@ -20,6 +20,5 @@ int main(void)
 	else
 		printf("%i is zero\n", n)
 	
-	printf
 	return (0);
 }
