@@ -10,10 +10,11 @@
 
 int main(void)
 {
-	for (int i=0;i<10;i++)
+	int n = 0;
+	while (n < 10)
 	{
-		putchar(i);
-		++i;
+		printf("%i",n);
+		++n;
 	}
 	putchar('\n');
 	return (0);
