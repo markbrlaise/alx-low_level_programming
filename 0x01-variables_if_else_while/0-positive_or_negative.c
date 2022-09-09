@@ -2,13 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/*
+/**
  *main - Entry point
  *
  *Description: print value of n satus; zero, positive or negative
  *
  *Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	int n;
@@ -22,6 +23,6 @@ int main(void)
 	else if (n < 0)
 		printf("%i is negative\n", n);
 	else
-		printf("%i is zero\n", n);	
+		printf("%i is zero\n", n);
 	return (0);
 }
