@@ -1,7 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
-
+/*
+ *main - Entry point
+ *
+ *Description: print value of n satus; zero, positive or negative
+ *
+ *Return: Always 0 (Success)
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -10,7 +17,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	/*check if number is negative or zero or positive then print*/
+i	/*check if number is negative or zero or positive then print*/
 	if (n > 0)
 		printf("%i is positive\n", n);
 	
