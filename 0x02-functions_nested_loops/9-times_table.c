@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- * 9 times table
+ * times_table - prints the 9 times table
+ *
+ * Example Table
+ * 0, 0, 0, 0, ..
+ * 0, 1, 2, 3, ..
+ *
 */
 
 
 void void_times_table(void)
 {
 	int rows = 0;
-	int columns, multiple;
+	int columns;
 
 	while (rows < 10)
 	{
