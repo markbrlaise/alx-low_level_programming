@@ -7,8 +7,9 @@
 
 int main(void)
 {
-	int a = 40;
+	int a;
 
+	a = 68 % 2;
 	positive_or_negative(a);
 
 	return (0);
