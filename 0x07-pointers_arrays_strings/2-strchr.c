@@ -14,11 +14,12 @@ char *_strchr(char *s, char c)
 {
 	int i;
 
-	for (i = 0; s[i]; i++)
+	while (s[i]!='\0')
 	{
 		if s[i] == c
 			//return pointer to first occurence
 			return (s + i);
+		i++;
 	}
 	//return null if character is absent
 	return ('\0');
