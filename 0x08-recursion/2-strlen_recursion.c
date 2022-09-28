@@ -3,7 +3,7 @@
  *
  * @s: pointer to string
  *
- *return: len, length of the string
+ *Return: len, length of the string
  *
  */
 
