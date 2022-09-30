@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.c>
+#include <stdlib.h>
 
 /**
  *main - function to print number of arguments passed
@@ -12,7 +12,7 @@
 
 int main(int argc, char __attribute__((unused)) *argv[])
 {
-	printf("%d\n", argc);
+	printf("%d\n", (argc - 1));
 	
 	return (0);
 }
