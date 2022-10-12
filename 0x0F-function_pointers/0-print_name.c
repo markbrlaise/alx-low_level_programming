@@ -1,12 +1,11 @@
 /**
- *print_name - function to print name
+ * print_name - function to print name
  *
- *@name: name to print
- *@f: function pointer that doesnot return anything
+ * @name: name to print
+ * @f: function pointer that doesn't return anything
  *
- *Return: void(so nth is returned)
- */
-
+ * Return: Always 0 (Success)
+*/
 
 void print_name(char *name, void (*f)(char *))
 {
