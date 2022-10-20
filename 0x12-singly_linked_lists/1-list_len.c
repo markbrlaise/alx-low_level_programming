@@ -5,13 +5,13 @@
  *
  *@h: pointer to the head(first node)
  *
- *REturn: number of nodes
+ *Return: number of nodes
  */
 
 size_t list_len(const list_t *h)
 {
 	size_t node_count = 1;
-	
+
 	/*if h is null return  0 lenght*/
 	if (h == NULL)
 		return (0);
